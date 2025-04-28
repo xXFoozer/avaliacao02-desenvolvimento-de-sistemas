@@ -2,4 +2,61 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background-color: #c7c7c7;
+
 }
+.container{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.header{
+    border: 2px solid #023455;
+    width: 900px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+button{
+    color: #fff;
+    background-color: #023455;
+    cursor: pointer;
+    border: none;
+    width: 100px;
+    height: 1rem;
+    border-radius: 16px;
+    margin-left: 5px;
+}
+button:hover{
+    background-color: #3a7297;
+}
+.product{
+    background-color: #194923;
+    cursor: pointer;
+    border: none;
+    width: 100px;
+    height: 1.5rem;
+    border-radius: 16px;
+    margin-left: 5px;
+}
+.product:hover{
+    background-color: #3c964f;
+}
+
+.listProduct{
+    margin-top: 10px;
+}
+
+li{
+    padding: 10px;
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+    list-style: none;
+    border: 2px solid #023455;
+    margin-top: 5px;
+    border-radius: 16px;
+}
+    
